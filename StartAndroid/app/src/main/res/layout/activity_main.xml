@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tvOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:text="TextView" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/startActivityForResult"
+            android:text="Читаем action из Intent"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnOk"
+            android:onClick="jksndc"
+            android:text="Main activity 2"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnCancel"
+            android:onClick="sdfvjknfv"
+            android:text="main activity 3"
+            android:layout_width="wrap_content"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="MainActivity4"
+                android:text="MainAcctivity4" />
+
+        <Button
+            android:id="@+id/btnCalculator"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calculator"
+            android:text="calculator" />
+
+        <Button
+            android:id="@+id/urok20"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/MainActivity5"
+            android:text="MainActivity5"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/MainActivity6"
+            android:text="Data and time"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/GetIntentAction"
+            android:text="Читаем action из Intent"
+            android:layout_width="wrap_content"/>
+
+        <Button
+            android:id="@+id/ActivityResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="цвет Align" />
+        <Button
+            android:id="@+id/GoogleApi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Google Api" />
+        <Button
+            android:id="@+id/SharedPreferences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Shared Preferences" />
+        <Button
+            android:id="@+id/SQLite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SQLite" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
